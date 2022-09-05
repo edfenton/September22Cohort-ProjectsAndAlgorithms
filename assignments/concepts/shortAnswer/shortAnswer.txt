@@ -1,0 +1,48 @@
+What is source code?
+Source code is written by a developer and then compiler so that I can be understood by computers as machine code.
+
+What makes computers so “smart”, anyway?
+Computers aren't "smart" - outside of AI/ML they only execute pre-programmed instructions.
+
+What is the purpose of a programming language?
+To create software.
+
+What are 3 examples of programming languages? Why are there so many of these?
+Python, Java, JavaScript.  The have different syntax, typing, compiling, general purposes, and memory efficiency - use the right tool for the right Job.
+
+What is a variable? Why are variables useful?
+Variables store data.  Variables can be set and updated to allow you to calculate other values, power conditional statements, and store values in memory.
+
+What is the difference between a single-equals (=) and a double-equals (==)?
+Single-equals sets a variable to a new value.  Double-equals checks if two values are equivalent regardless of type.
+
+What is the difference between a double-equals (==) and a triple-equals (===)?
+Double-equals checks if two values are equivalent regardless of type.  Triple-equals checks if two values are equivalent and have the same type.
+
+Why does the developer console exist?
+To allow you to see errors, debug statements, and the outputs of code.
+
+When we talk about “conditional” statements, what does that mean? What is an example?
+Code that runs depending on the results of a test - i.e., IF, ELSE IF, ELSE.
+
+Why would we want FOR or WHILE loops in our source code?
+FOR and WHILE loops are for code that you want to run as long as a condition is true.
+
+When would you use a WHILE loop, instead of a FOR loop?
+You would use a FOR loop when you know how many iterations of the code that you want to run.  A WHILE loop is used when you are not sure the number of iterations that are run.
+
+What is a function? Why would we use functions?
+A function is a reusable piece of code that can be called from other places.  We use functions to prevent repeating ourselves (DRY method).
+
+How many values can you receive back from a function? How many values can you send in?
+You can have a single return from a function but you can pass in many parameters as arguments.
+
+
+What is an array? How many values does it hold?
+An array is a list of values and it can contain as many values as you would like.
+
+What is a T-diagram and why should I know how to use one?
+A T-diagram is a tool to keep track of the values stored within variables as the code is executed.
+
+What are the two ways to comment JS code? When would you use one versus the other?
+Use '//' for a single comment or quick notes.  Bookend longer blocks code with '/*' and '*/'.
