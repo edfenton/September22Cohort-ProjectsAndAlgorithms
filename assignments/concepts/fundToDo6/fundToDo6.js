@@ -103,35 +103,35 @@
 // console.log(sumToOne(928));
 
 // Clock Hand Angles
-// function clockHandAngles(seconds) {
-//   var days = Math.floor(seconds / 86400);
-//   var secondsLeft = seconds - days * 86400;
-//   var hours = Math.floor(secondsLeft / 3600);
-//   secondsLeft = secondsLeft - hours * 3600;
-//   var minutes = Math.floor(secondsLeft / 60);
-//   secondsLeft = secondsLeft - minutes * 60;
-//   seconds = secondsLeft;
-//   secondsLeft = secondsLeft - seconds;
-//   var secondHand = 360 / 60 * seconds;
-//   var minuteHand = (360 / 60 * minutes) + (secondHand / 360 * 360 / 60);
-//   var hourHand = (360 / 12 * hours) + (minuteHand / 360 * 360 / 12);
-//   return(
-//     'Hour hand: ' + hourHand + ' degs. ' + 
-//     'Minute hand: ' + minuteHand + ' degs. ' + 
-//     'Second hand: ' + secondHand + ' degs.'
-//   )
-// }
-// console.log(clockHandAngles(3600));
-// console.log(clockHandAngles(119730));
+function clockHandAngles(seconds) {
+  var days = Math.floor(seconds / 86400);
+  var secondsLeft = seconds - days * 86400;
+  var hours = Math.floor(secondsLeft / 3600);
+  secondsLeft = secondsLeft - hours * 3600;
+  var minutes = Math.floor(secondsLeft / 60);
+  secondsLeft = secondsLeft - minutes * 60;
+  seconds = secondsLeft;
+  secondsLeft = secondsLeft - seconds;
+  var secondHand = 360 / 60 * seconds;
+  var minuteHand = (360 / 60 * minutes) + (secondHand / 360 * 360 / 60);
+  var hourHand = (360 / 12 * hours) + (minuteHand / 360 * 360 / 12);
+  return(
+    'Hour hand: ' + hourHand + ' degs. ' + 
+    'Minute hand: ' + minuteHand + ' degs. ' + 
+    'Second hand: ' + secondHand + ' degs.'
+  )
+}
+console.log(clockHandAngles(3600));
+console.log(clockHandAngles(119730));
 
 // Is Prime
-function isPrime(num) { // returns boolean
-  if (num <= 1) return false; // one, zero, and negatives
-  if (num % 2 === 0 && num > 2) return false; // even numbers
-  var s = Math.sqrt(num); // pre-calculate the square root
-  for (var i = 3; i <= s; i += 2) { // start = 3, end = sqrt, increment by twos
-    if (num % i === 0) return false;
-  }
-  return true;
-}
-console.log(isPrime(11));
+// function isPrime(num) { // returns boolean
+//   if (num <= 1) return false; // one, zero, and negatives
+//   if (num % 2 === 0 && num > 2) return false; // even numbers
+//   var s = Math.sqrt(num); // pre-calculate the square root
+//   for (var i = 3; i <= s; i += 2) { // start = 3, end = sqrt, increment by twos
+//     if (num % i === 0) return false;
+//   }
+//   return true;
+// }
+// console.log(isPrime(11));
